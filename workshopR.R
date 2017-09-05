@@ -1,4 +1,4 @@
-rm(list=ls()) #remove all current variables
+rm(list=ls()) #remove all current variables 
 library(TAM)
 setwd("C:\\G_MWU\\R Projects\\Equating")
 resp1 <- read.csv("test1.csv")
