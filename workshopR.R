@@ -5,7 +5,7 @@ resp1 <- read.csv("test1.csv")
 resp2 <- read.csv("test2.csv")
 mod1 <- tam(resp1)
 mod1$xsi
-plot(mod1,fix.devices=TRUE,overlay = TRUE,observed = FALSE)
+plot(mod1,fix.devices=TRUE,observed = FALSE)
 
 mod2 <- tam(resp2)
 iname <- colnames(resp1) %in% colnames(resp2)
